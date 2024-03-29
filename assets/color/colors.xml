@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<colors>
+  <color name="primaryColor">#FF9DFE00</color>
+  <color name="secondaryColor">#FF13D9E5</color>
+  <color name="blackColor">#FF191D29</color>
+  <color name="whiteColor">#FFFFFFFF</color>
+  <color name="grayColor">#FFE3E3E3</color>
+  <color name="bgColor">#FF30324E</color>
+</colors>

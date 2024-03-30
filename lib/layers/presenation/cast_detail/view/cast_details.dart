@@ -107,13 +107,11 @@ final class CartoonDetailsScreen extends StatelessWidget {
           border: Border.all(width: 1.0, color: AppColors.secondaryColor)),
       child: ClipRRect(
         borderRadius: BorderRadius.circular(.3.r),
-        child: Flexible(
-          child: CachedNetworkImage(
-            imageUrl: imageUrl,
-            fit: BoxFit.cover,
-            placeholder: (context, url) => Utils.imageSimmerCached(.2.sw),
-            errorWidget: (context, url, error) => Utils.imageNotFound(.2.sw),
-          ),
+        child: CachedNetworkImage(
+          imageUrl: imageUrl,
+          fit: BoxFit.cover,
+          placeholder: (context, url) => Utils.imageSimmerCached(.2.sw),
+          errorWidget: (context, url, error) => Utils.imageNotFound(.2.sw),
         ),
       ),
     );
